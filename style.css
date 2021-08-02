@@ -1,0 +1,89 @@
+html {
+    background-color: #000000;
+}
+:root {
+    --background-color: #ffffff;
+    --sub-title-color: #00eeff;
+    --title-color: #55ff00;
+    --button-green: #00ff1e;
+    --button-gray: #007bff;
+    --font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    color: var(--title-color);
+    font-family: var(--font-family);
+    font-size: 4.25rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.sub-title {
+    color: var(--sub-title-color);
+    font-family: var(--font-family);
+    font-size: 2.25rem;
+    letter-spacing: 1.5px;
+    margin-top: -40px;
+    font-weight: 400;
+}
+.description {
+    max-width: 500px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.description-text {
+    font-family: var(--font-family);
+    color: var(--sub-title-color);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.button-green {
+    padding: 10px 30px;
+    border: 1px solid var(--button-green);
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--button-green);
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+.button-green:hover {
+    background-color: var(--button-green);
+    color: var(--background-color);
+}
+.button-gray {
+    padding: 10px 30px;
+    border: 1px solid var(--button-gray);
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--button-gray);
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+.separation {
+    margin-left: 15px;
+}
+.button-gray:hover {
+    background-color: var(--button-gray);
+    color: var(--background-color);
+}
+.cr-text {
+    font-family: var(--font-family);
+    color: var(--title-color);
+    font-size: 1.08rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 305px;
+
+}
